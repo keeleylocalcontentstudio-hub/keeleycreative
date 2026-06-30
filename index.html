@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Keeley Creative | Portfolio</title>
+  <meta name="description" content="Keeley Creative portfolio - social media, content creation, digital projects, results and contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <button class="mobile-menu" id="mobileMenu">☰</button>
+
+  <aside class="sidebar" id="sidebar">
+    <div class="brand">
+      <div class="brand-mark">KC</div>
+      <div>
+        <strong>Keeley Creative</strong>
+        <span>Digital Portfolio</span>
+      </div>
+    </div>
+
+    <nav class="side-nav">
+      <button class="tab-btn active" data-tab="home">Home</button>
+      <button class="tab-btn" data-tab="about">About Me</button>
+      <button class="tab-btn" data-tab="work">Show My Work</button>
+      <button class="tab-btn" data-tab="results">Results</button>
+      <button class="tab-btn" data-tab="services">Services</button>
+      <button class="tab-btn" data-tab="skills">Skills</button>
+      <button class="tab-btn" data-tab="contact">Contact</button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <p>Selected client work<br>2025–2026</p>
+      <a href="mailto:keeleym2013@gmail.com">Email Keeley</a>
+    </div>
+  </aside>
+
+  <main class="main">
+    <section class="tab-panel active" id="home">
+      <div class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Social Media • Content • Digital Projects</p>
+          <h1>Creative content and digital experiences for brands that want to stand out.</h1>
+          <p>I create social media campaigns, graphics, reels, promotional videos, menus, web apps, admin dashboards and digital tools for businesses.</p>
+          <div class="button-row">
+            <button class="primary jump-work">Show My Work</button>
+            <button class="secondary jump-contact">Contact Me</button>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <img src="assets/app-home.jpg" alt="Portfolio website app showcase">
+          <div class="glass-badge">Built from scratch</div>
+        </div>
+      </div>
+
+      <div class="home-stats">
+        <div><strong>250k+</strong><span>views shown in results</span></div>
+        <div><strong>1</strong><span>full app built from scratch</span></div>
+        <div><strong>6+</strong><span>projects and brands</span></div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="about">
+      <div class="page-head">
+        <p class="eyebrow">About Me</p>
+        <h2>Hi, I’m Keeley.</h2>
+        <p>I’m a self-taught social media manager, content creator and digital creative. Over the past 8 months I’ve worked across social media management, campaign graphics, promotional videos, menus, reels, app development and admin dashboards.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card dark">
+          <h3>What makes me different</h3>
+          <p>I don’t just create posts. I can take an idea and turn it into a full digital experience, from the design and copy to the app, campaign, video and launch plan.</p>
+        </div>
+        <div class="about-card">
+          <h3>How I work</h3>
+          <p>I’m creative, practical and fast-learning. If I don’t know how to do something, I teach myself and keep going until it works.</p>
+        </div>
+        <div class="about-card">
+          <h3>What I enjoy</h3>
+          <p>Creating content that makes people stop scrolling, engage, click, comment, enquire or come back again.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="work">
+      <div class="page-head">
+        <p class="eyebrow">Show My Work</p>
+        <h2>Selected creative projects.</h2>
+        <p>Everything is grouped here so visitors can explore the work without the website feeling like one long page.</p>
+      </div>
+
+      <div class="work-tabs">
+        <button class="work-filter active" data-filter="all">All</button>
+        <button class="work-filter" data-filter="app">App & Dashboard</button>
+        <button class="work-filter" data-filter="campaigns">Campaigns</button>
+        <button class="work-filter" data-filter="bathrooms">Home Improvement</button>
+        <button class="work-filter" data-filter="food">Food & Hospitality</button>
+        <button class="work-filter" data-filter="video">Video</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="portfolio-card large" data-category="app">
+          <img src="assets/app-home.jpg" alt="App homepage">
+          <div><span>App & Dashboard</span><h3>Customer hub</h3><p>Mobile-first app home screen designed and built from scratch.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="app">
+          <img src="assets/app-game.jpg" alt="Interactive game">
+          <div><span>Interactive Feature</span><h3>Daily game</h3><p>Repeat engagement feature for customers.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="app">
+          <img src="assets/app-league.jpg" alt="Live leaderboard">
+          <div><span>Community</span><h3>Live leaderboard</h3><p>Points and league system for engagement.</p></div>
+        </article>
+
+        <article class="portfolio-card wide" data-category="app">
+          <img src="assets/admin-dashboard.jpg" alt="Admin dashboard">
+          <div><span>Admin System</span><h3>Private dashboard</h3><p>Admin tools for app control, notifications, settings and management.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="campaigns">
+          <img src="assets/campaign-icebreak.jpg" alt="Campaign graphic">
+          <div><span>Campaign</span><h3>App launch graphic</h3><p>Promotional artwork for a digital feature launch.</p></div>
+        </article>
+
+        <article class="portfolio-card tall" data-category="campaigns">
+          <img src="assets/campaign-worldcup.jpg" alt="World Cup campaign">
+          <div><span>Engagement</span><h3>Prediction campaign</h3><p>Interactive post designed to increase comments and participation.</p></div>
+        </article>
+
+        <article class="portfolio-card tall" data-category="campaigns">
+          <img src="assets/campaign-scratch.jpg" alt="Daily scratch campaign">
+          <div><span>App Marketing</span><h3>Daily reward campaign</h3><p>Graphic created to drive app usage and daily returns.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="campaigns">
+          <img src="assets/campaign-mystery.jpg" alt="Mystery box campaign">
+          <div><span>Community Game</span><h3>Mystery box campaign</h3><p>Engagement idea created for social interaction.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="campaigns">
+          <img src="assets/campaign-install.jpg" alt="App install graphic">
+          <div><span>Instructional Design</span><h3>App install guide</h3><p>Clear visual guide created to support app installs.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="bathrooms">
+          <img src="assets/results-124k.jpg" alt="Bathroom content result">
+          <div><span>Home Improvement</span><h3>Package promotion</h3><p>Campaign reached 124k+ views.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="bathrooms">
+          <img src="assets/results-101k.jpg" alt="Bathroom content result">
+          <div><span>Home Improvement</span><h3>Luxury offer</h3><p>Campaign reached 101k+ views.</p></div>
+        </article>
+
+        <article class="portfolio-card" data-category="food">
+          <img src="assets/food-behind-scenes.jpg" alt="Food business behind the scenes">
+          <div><span>Food & Hospitality</span><h3>Behind the scenes</h3><p>Content created to show personality and freshness.</p></div>
+        </article>
+
+        <article class="portfolio-card tall" data-category="food">
+          <img src="assets/food-launch.jpg" alt="Food product launch">
+          <div><span>Product Launch</span><h3>New item promotion</h3><p>Bold launch graphic for a hospitality business.</p></div>
+        </article>
+
+        <article class="portfolio-card video-card" data-category="video">
+          <video controls muted playsinline src="assets/land-promo.mp4"></video>
+          <div><span>Video</span><h3>Land promotion</h3><p>Promotional video for a property/land project.</p></div>
+        </article>
+
+        <article class="portfolio-card video-card" data-category="video">
+          <video controls muted playsinline src="assets/business-ad.mp4"></video>
+          <div><span>Business Advert</span><h3>Own brand advert</h3><p>Promotional advert created for my own creative business.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="results">
+      <div class="page-head">
+        <p class="eyebrow">Results</p>
+        <h2>Content with real reach.</h2>
+        <p>These results show examples of content performance across social platforms.</p>
+      </div>
+
+      <div class="result-cards">
+        <div><strong data-count="124">0</strong><span>k+ views on one campaign</span></div>
+        <div><strong data-count="101">0</strong><span>k+ views on one campaign</span></div>
+        <div><strong data-count="68">0</strong><span>k+ views on one campaign</span></div>
+        <div><strong data-count="9876">0</strong><span>engagements shown</span></div>
+      </div>
+
+      <div class="proof-row">
+        <img src="assets/results-124k.jpg" alt="124k view result">
+        <img src="assets/results-101k.jpg" alt="101k view result">
+        <img src="assets/results-68k.jpg" alt="68k view result">
+      </div>
+    </section>
+
+    <section class="tab-panel" id="services">
+      <div class="page-head">
+        <p class="eyebrow">Services</p>
+        <h2>What I can create.</h2>
+        <p>For employers, clients or businesses looking for creative digital support.</p>
+      </div>
+
+      <div class="services-grid">
+        <div><h3>Social Media Management</h3><p>Content planning, captions, graphics, reels, scheduling and engagement ideas.</p></div>
+        <div><h3>Video Editing</h3><p>Short-form reels, promotional videos, before-and-after content and advert-style edits.</p></div>
+        <div><h3>Graphic Design</h3><p>Posters, menus, campaign graphics, offers, launch posts and branded assets.</p></div>
+        <div><h3>Digital Projects</h3><p>Web apps, admin dashboards, forms, league systems and engagement tools.</p></div>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="skills">
+      <div class="page-head">
+        <p class="eyebrow">Skills</p>
+        <h2>Tools I use.</h2>
+        <p>A mix of creative, technical and marketing tools used across my projects.</p>
+      </div>
+
+      <div class="skill-cloud">
+        <span>Canva</span><span>CapCut</span><span>ChatGPT</span><span>Grok</span><span>ElevenLabs</span><span>GitHub</span><span>Netlify</span><span>Google Sheets</span><span>OneSignal</span><span>HTML</span><span>CSS</span><span>Social Strategy</span><span>Video Editing</span><span>App Development</span><span>Admin Dashboards</span><span>Menu Design</span>
+      </div>
+    </section>
+
+    <section class="tab-panel" id="contact">
+      <div class="contact-box">
+        <p class="eyebrow">Contact</p>
+        <h2>Let’s create something scroll-stopping.</h2>
+        <p>Email me directly at:</p>
+        <a class="email" href="mailto:keeleym2013@gmail.com">keeleym2013@gmail.com</a>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
